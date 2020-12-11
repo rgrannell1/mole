@@ -30,7 +30,10 @@ mole ls <tablename> [--db <string>]
 ```sh
 mole ls keyword_search_terms
 ```
-
+Find all mole-related searches
+```sh
+mole ls keyword_search_terms | jq -r 'select(.term | contains("mole"))'
+```
 ### Files
 
 ```
