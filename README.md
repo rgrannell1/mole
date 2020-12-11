@@ -1,6 +1,6 @@
 # Mole
 
-After Grant's golden mole.
+After [Grant's golden mole](https://en.wikipedia.org/wiki/Grant%27s_golden_mole).
 
 ### Stability Index
 
@@ -9,8 +9,6 @@ After Grant's golden mole.
 ### Usage
 
 mole extracts Chrome's history files as JSON to be consumed by downstream tools. It also performs joins on the various tables to give the most information possible per-entry.
-
-
 
 ```
 downloads
