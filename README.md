@@ -33,6 +33,9 @@ mole keyword_search_terms
 ### Files
 
 ```
+go.mod            go dependency information
+main.go           the core code
+read-sqlite.go    SQL-reading utility code
 ```
 
 ### License
