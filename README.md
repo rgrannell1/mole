@@ -27,7 +27,10 @@ visit_source
 visits
 ```
 ```sh
-mole keyword_search_terms
+mole ls <tablename> [--db <string>]
+```
+```sh
+mole ls keyword_search_terms
 ```
 
 ### Files
